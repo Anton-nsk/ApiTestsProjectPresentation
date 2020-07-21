@@ -1,0 +1,45 @@
+<#assign aDateTime = .now>
+<#assign aDate = aDateTime?date>
+<#assign aTime = aDateTime?time>
+{
+"param": "${valueForParam}",
+"param": "valueForParam",
+"param": "valueForParam",
+"param": "${date!aDateTime?iso("GMT+07")}",
+"param": "valueForParam",
+"param": "${valueForParam}",
+"param": "${valueForParam}",
+"param": "${valueForParam}",
+"param": "${valueForParam}",
+"param": "${valueForParam}",
+"param": "valueForParam",
+"param": "${date!aDateTime?iso("GMT+07")}",
+"param": "${date!aDateTime?iso("GMT+07")}",
+"param": "valueForParam",
+"ArrayParam":[
+{
+"param": "valueForParam",
+"param": "В ЦЕЛОМ ТУТ МНОГО РАЗНЫХ JSON'ОВ, НО ВЫ ПОНЯЛИ"
+},
+{
+"param": "valueForParam",
+"param": "+valueForParam"
+},
+{
+"param": "valueForParam",
+"param": "valueForParam"
+},
+{
+"param": "valueForParam",
+"param": "valueForParam"
+},
+{
+"param": "valueForParam",
+"param": "12.12.1985"
+},
+{
+"param": "valueForParam",
+"param": "Улица Радости дом 2-го Счастья"
+}
+]
+}
